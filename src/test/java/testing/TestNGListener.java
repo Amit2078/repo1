@@ -18,6 +18,7 @@ public class TestNGListener implements ITestListener
 	public void onFinish(ITestContext result)
 	{
 		System.out.println("The test is finished"+result.getName());
+		System.out.println("This is for another branch");
 	}
 	
 	@Override
