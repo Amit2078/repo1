@@ -10,6 +10,7 @@ public class TestNGListener implements ITestListener
 	public void onStart(ITestContext result)
 	{
 		System.out.println("The test is started"+result.getName());
+		System.out.println("First test started");
 	}
 	
 	@Override
