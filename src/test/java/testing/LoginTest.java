@@ -24,6 +24,8 @@ public class LoginTest extends Base{
 	public void login(String username,String password,String expResult) 
 			throws InterruptedException {
 		
+		System.out.println("This line has been updated");
+		
 		// called from landingpage class
 		LandingPage landpage = new LandingPage(driver);
 		landpage.myaccount().click();
