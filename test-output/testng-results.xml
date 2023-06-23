@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T03:46:51 EDT" name="Default suite" finished-at="2023-06-23T03:47:17 EDT" duration-ms="26146">
+    <groups>
+    </groups>
+    <test started-at="2023-06-23T03:46:51 EDT" name="Default test" finished-at="2023-06-23T03:47:17 EDT" duration-ms="26146">
+      <class name="testing.LoginTest">
+        <test-method is-config="true" signature="open()[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:46:51 EDT" name="open" finished-at="2023-06-23T03:46:56 EDT" duration-ms="5278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:46:56 EDT" name="login" data-provider="logindata" finished-at="2023-06-23T03:46:58 EDT" duration-ms="1937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc1@xxx.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Passed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:46:58 EDT" name="tearDown" finished-at="2023-06-23T03:46:58 EDT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:46:58 EDT" name="open" finished-at="2023-06-23T03:47:01 EDT" duration-ms="2376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:47:01 EDT" name="login" data-provider="logindata" finished-at="2023-06-23T03:47:07 EDT" duration-ms="6691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@214222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:47:07 EDT" name="tearDown" finished-at="2023-06-23T03:47:08 EDT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:47:08 EDT" name="open" finished-at="2023-06-23T03:47:10 EDT" duration-ms="2370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:47:10 EDT" name="login" data-provider="logindata" finished-at="2023-06-23T03:47:17 EDT" duration-ms="6679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anu@hdjc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@000000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.LoginTest@235ecd9f]" started-at="2023-06-23T03:47:17 EDT" name="tearDown" finished-at="2023-06-23T03:47:17 EDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
