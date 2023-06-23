@@ -10,12 +10,15 @@ public class TestNGListener implements ITestListener
 	public void onStart(ITestContext result)
 	{
 		System.out.println("The test is started"+result.getName());
+		System.out.println("First test started");
+		
 	}
 	
 	@Override
 	public void onFinish(ITestContext result)
 	{
 		System.out.println("The test is finished"+result.getName());
+		System.out.println("This is for another branch");
 	}
 	
 	@Override
